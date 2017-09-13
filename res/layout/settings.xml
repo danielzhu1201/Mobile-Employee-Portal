@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_bg"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/changeaccount"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/about"
+        android:layout_marginTop="18dp"
+        android:background="@color/transparent"
+        android:text="切换账号"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/about"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/personalinfo"
+        android:layout_marginTop="14dp"
+        android:layout_weight="1"
+        android:background="@color/transparent"
+        android:text="关于我们"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/personalinfo"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/imageView1"
+        android:layout_weight="1"
+        android:background="@color/transparent"
+        android:text="个人信息"
+        android:textColor="@color/white" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="14dp"
+        android:src="@drawable/login" />
+
+</RelativeLayout>
